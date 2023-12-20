@@ -1,0 +1,40 @@
+.navbarContainer {
+  background-color: #d3b404c8;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbarItems {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.navbarItem {
+  color: #2602ab;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.navbarItem:hover {
+  border-bottom: 2px solid #2602ab;
+  font-weight: 600;
+}
+
+.selected {
+  border-bottom: 2px solid #2602ab;
+  font-weight: 600;
+}
+
+.instructorBadge {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+}

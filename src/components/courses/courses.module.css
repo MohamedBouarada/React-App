@@ -1,0 +1,63 @@
+.coursesContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.title{
+ font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+.searchContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.serachLabel {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #636363;
+}
+
+.searchInput {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.coursesList {
+  margin-top: 20px;
+}
+
+.courseItem {
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
+}
+
+.courseItem p {
+  margin: 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .searchContainer {
+    flex-direction: column;
+  }
+
+  .searchInput {
+    width: 100%; 
+  }
+}
